@@ -1,0 +1,1081 @@
+1)First program
+
+import java.lang.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to Java language")
+	}
+}
+
+2) Addition of 2 numbers
+
+public class p2 
+{
+    public static void main(String[]args)
+    {
+        int a=1500,b=2090,c;
+        c=a+b;
+        System.out.println("Addition="+c);
+    }
+    
+}
+
+
+3)Substraction
+
+    public class p3
+{
+    public static void main(String[]args)
+    {
+        int a=2000,b=1000,c;
+        c=a-b;
+        System.out.println("Substraction="+c);
+    }
+    
+}
+
+4)Division
+
+public class p4
+ {
+    public static void main(String[]args)
+    {
+        int a=1600,b=4,c;
+        c=a/b;
+        System.out.println("Division="+c);
+    }
+    
+}
+
+5)multiplication
+
+public class p5
+ {
+    public static void main(String[]args)
+    {
+        int a=1600,b=4,c;
+        c=a*b;
+        System.out.println("Multiplication="+c);
+    }
+    
+}
+
+6)addition of 5 nums.
+
+public class p6
+ {
+    public static void main(String[]args)
+    {
+        int a=160,b=40,c=100,d=304,e=56,add;
+        add= a+b+c+d+e;
+        System.out.println("Addition="+add);
+    }
+    
+}
+
+7)addition of 7 no
+
+public class p7 
+{
+    public static void main(String[]args)
+    {
+        int a=160,b=40,c=100,d=304,e=56,f=650,g=87,add;
+        add= a+b+c+d+e+f+g;
+        System.out.println("Addition="+add);
+    }
+    
+}
+
+* Dynamic programms
+
+7.1)Multiplication of 4 no.
+
+import java.util.*;
+
+public class dp7 
+{
+    public static void main(String[]args)
+    {
+        int a,b,c,d,multi;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter four numbers for multiplication");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        multi=a*b*c*d;
+        System.out.println("Multiplication="+multi);
+    }
+    
+}
+
+8)Substraction
+
+import java.util.Scanner;
+
+public class dp8
+ {
+     public static void main(String[]args)
+    {
+        int a,b,sub;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two numbers for Substraction");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        sub=a-b;
+        System.out.println("Substraction="+sub);
+    }
+    
+}
+
+9)Addition
+
+import java.util.Scanner;
+
+public class p9 
+{
+     public static void main(String[]args)
+    {
+        int a,b,add;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two numbers for Addition");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        add=a+b;
+        System.out.println("Addition="+add);
+    }
+    
+}
+
+10)division
+
+import java.util.Scanner;
+
+public class p10
+ {
+     public static void main(String[]args)
+    {
+        int a,b,div;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two numbers for Division");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        div=a/b;
+        System.out.println("Division="+div);
+    }
+    
+}
+
+
+11)Addition of 5 numbers.
+
+import java.util.Scanner;
+
+public class p11
+{
+     public static void main(String[]args)
+    {
+        int a,b,c,d,e,add;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter five numbers for addition");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        e=sc.nextInt();
+        add=a+b+c+d+e;
+        System.out.println("Addition="+add);
+    }
+    
+}
+
+12)Addition of 7 numbers.
+
+mport java.util.*;
+
+public class p12 
+{
+     public static void main(String[]args)
+    {
+        int a,b,c,d,e,f,g,add;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter seven numbers for addition");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        e=sc.nextInt();
+        f=sc.nextInt();
+        g=sc.nextInt();
+        add=a+b+c+d+e+f+g;
+        System.out.println("Addition="+add);
+    }
+    
+}
+
+13) Area of Circle
+
+import java.util.*;
+public class p13
+{
+    public static void main(String[] args) 
+    {
+        double radius,Area;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter value of radius");
+        radius=sc.nextDouble();
+        Area=3.14*radius*radius;
+        System.out.println("Area of circle="+Area);     
+    }
+}
+
+14) Area of Rectangle
+
+import java.util.*;
+public class p14
+{
+    public static void main(String[] args) 
+    {
+        double l,b,A;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter value of Length & Breadth");
+        l=sc.nextDouble();
+        b=sc.nextDouble();
+        A=l*b;
+        System.out.println("Area of Rectangle="+A);     
+    }
+}
+
+15) Area of triangle
+
+import java.util.Scanner;
+public class p15 {
+    public static void main(String[] args) 
+    {
+        double b,h,A;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter value of Base & Height");
+        b=sc.nextDouble();
+        h=sc.nextDouble();
+        A=0.5*b*h;
+        System.out.println("Area of Triangle="+A);      
+    }
+}
+
+16) Kinetic Energy
+
+import java.util.*;
+public class p16 
+{
+public static void main(String[]args)
+{
+double m,v,ke;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter M & V");
+m=sc.nextDouble();
+v=sc.nextDouble();
+ke=0.5*m*v*v;
+System.out.println("KE"+ke);
+}
+}
+
+17) Potential Energy
+
+import java.util.*;
+public class p17
+ { 
+public static void main(String[]args)
+{
+double m,g,h,pe;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter M ,g,h");
+m=sc.nextDouble();
+g=sc.nextDouble();
+h=sc.nextDouble();
+pe=m*g*h;
+System.out.println("Potential Energy="+pe);
+}
+}
+ 
+18) Arithmetic mean & harmonic mean
+
+import java.util.*;
+public class p18
+ {
+    public static void main(String[] args)
+    {
+        double a,b,hm,am;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter value of a & b");
+        a=sc.nextDouble();
+        b=sc.nextDouble();
+        am=(a+b)/2;
+        hm=(a-b)/2;
+        System.out.println("Arithmetic mean="+am);
+        System.out.println("Harmonic mean="+hm);
+    }
+}
+
+19) convert temparature
+import java.util.*;
+public class p19  
+{
+    public static void main(String[] args) 
+    {
+        double F,C,K;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter temperature in Farheinet");
+        F=sc.nextDouble();
+        C=(9/5)*(F-32);
+        K=C+272.13;
+        System.out.println("Temp in C = "+C);
+        System.out.println("Temp in Kelvin = "+K); 
+    }
+}
+
+20) Percentage
+
+import java.util.*;
+public class p20 
+ {
+	public static void main(String[] args)
+	{
+		int m1,m2,m3,m4,m5,total;
+		double per;		
+		Scanner sc=new Scanner(System.in);//2
+		System.out.println("Enter 5 numbers");//printf
+		m1=sc.nextInt();//scanf
+		m2=sc.nextInt();
+		m3=sc.nextInt();
+		m4=sc.nextInt();
+		m5=sc.nextInt();
+		total=m1+m2+m3+m4+m5;
+		per=total/5;
+		System.out.println("Total="+total);
+		System.out.println("Percentage="+per);	
+	}
+}
+
+21) accept basic salary from user & calculate hra,ta,da tax & gs
+hra=50% on bs           
+ta=40% on bs             
+da=60% on bs
+tax=5% on bs
+
+import java.util.*;
+             public class p21 
+{
+    public static void main(String[] args)
+	{
+		double bs,gs,hra,ta,da,tax;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter value basic salary");
+		bs=sc.nextDouble();
+		hra=bs*0.50;
+		ta=bs*0.40;
+                          da=bs*0.60;
+		tax=bs*0.05;
+		gs=(bs+hra+ta+da)-tax;
+		System.out.println("Home Rental Allowance="+hra);
+		System.out.println("Travalling Allowance="+ta);
+		System.out.println("Dinner Allowance="+da);
+		System.out.println("TAX"+tax);
+		System.out.println("Gross Salary="+gs);
+	}
+}
+
+22) calculate total area with roof is painted
+   room l,b,h
+ - door l1,h1
+ - window l2,h2(2 window)
+ - floor(l*b)
+
+ import java.util.*;
+public class p22 
+    {
+       public static void main(String[]args)
+       {
+        double l,b,h,l1,h1,l2,h2,area;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter l,b,h of room & l1,h1 of door l2,h2 of window");
+        l=sc.nextDouble();
+        b=sc.nextDouble();
+        h=sc.nextDouble();
+        l1=sc.nextDouble();
+        h1=sc.nextDouble();
+        l2=sc.nextDouble();
+        h2=sc.nextDouble();  
+        area=(2*(l*b + l*h + b*h))-((l1*h1)-(l*b)-(2*(l2*h2)));
+
+        System.out.println("Total Area painted="+area);
+       }
+ }
+        
+23)    swapping
+a=110    b=200
+after execution of program
+a=200    b=110
+
+import java.util.*;
+public class p23 
+ {
+
+    public static void main(String[] args) 
+{
+        int a,b,c;
+        Scanner sc=new  Scanner(System.in);
+        System.out.println("Enter value of a & b");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        System.out.println("Before Swapping  a= "+a+"  b= "+b);
+
+        c=a; 
+        a=b; 
+        b=c;
+        System.out.println("After Swapping a= "+a+"  b= "+b);
+
+    }
+
+}
+
+
+24) without Using third variable swapping 10
+             
+import java.util.*;
+public class p24 
+ {
+	public static void main(String[] args) 
+    {
+		int a,b;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter value of a & b");
+		a=sc.nextInt();
+		b=sc.nextInt();
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("  a  ="+a+"  b  ="+b);
+	}
+}
+
+25)  converting hour minits in seconds
+
+import java.util.*;
+public class p25 {
+    public static void main(String[]args)
+    {
+            int h,m,s,sec;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter h,m,s");
+            h=sc.nextInt();
+            m=sc.nextInt();
+            s=sc.nextInt();
+            sec=(h*3600)+(m*60)+s;
+            System.out.println("Seconds="+sec);     
+    }
+    
+}
+
+26) Kilometer to meter
+
+import java.util.*;
+public class p26 
+{
+    public static void main(String[]args)
+    {
+            int km,m;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter km");
+            km=sc.nextInt();
+            m=km*1000;
+            System.out.println("Meter="+m);     
+    }
+    
+}
+    
+27) Liter to Mili liter
+
+import java.util.*;
+public class p27 {
+        public static void main(String[]args)
+    {
+            int li,ml;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter li");
+            li=sc.nextInt();
+            ml=li*1000;
+            System.out.println("Mililiters="+ml);     
+    }
+   
+}
+
+28) Meter to Km
+
+import java.util.*;
+public class p28 {
+       public static void main(String[]args)
+    {
+            int m,km;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter meter");
+            m=sc.nextInt();
+            km=m/1000;
+            System.out.println("Kilometer="+km);     
+    }
+    
+}
+
+29) Ml to Liter
+
+import java.util.Scanner;
+public class p29
+ {
+    public static void main(String[]args)
+    {
+            int ml,li;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter mililiter");
+            ml=sc.nextInt();
+            li=ml/1000;
+            System.out.println("Liter"+li);     
+    }    
+}
+
+30)  Accept seconds from user & display it in h:m:s format
+
+import java.util.*;
+public class p30 {
+        public static void main(String[]args)
+    {
+            int hours,minutes,rs,sec;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter seconds");
+            sec=sc.nextInt();
+            hours=sec/3600;
+            minutes=(sec%3600)/60;
+            rs=sec%60;
+            System.out.println(" H: "+hours+ " m: " +minutes+ " S: " +rs);
+           
+    }
+}
+
+31). i/p7530
+
+import java.util.*;
+public class p31 {
+       public static void main(String[]args)
+    {
+            int hours,minutes,rs,sec=7530;
+            System.out.println("Seconds=7530");
+            hours=sec/3600;
+            minutes=(sec%3600)/60;
+            rs=sec%60;
+            System.out.println(" H: "+hours+ " m: " +minutes+ " S: " +rs);
+           
+    } 
+    
+}
+ 
+
+32) Accept amount from user    i/p 888
+
+import java.util.Scanner;
+public class p32 
+{
+	public static void main(String[] args) 
+	{
+	int rs,twot,fiveh,twoh,oneh,fifty,twen,ten,five,two,one,a;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter value of Ruppes");
+	rs=sc.nextInt();
+	a=rs;
+	    twot=rs/2000;
+	    rs=rs%2000;
+	    fiveh=rs/500;
+	    rs=rs%500;
+	    twoh=rs/200;
+	    rs=rs%200;
+	    oneh=rs/100;
+	    rs=rs%100;
+	    fifty=rs/50;
+	    rs=rs%50;
+	    twen=rs/20;   
+	    rs=rs%20;  
+	    ten=rs/10;
+	    rs=rs%10;
+	    five=rs/5;
+	    rs=rs%5;
+	    two=rs/2;
+	    one=rs%2;
+	    System.out.println("2000*"+twot +"= "+(2000*twot));
+	    System.out.println("500*"+fiveh+"= "+(500*fiveh));
+	    System.out.println("200* "+twoh+"="+(200*twoh));
+	    System.out.println("100* "+oneh+"="+(100*oneh));
+	    System.out.println("50* "+fifty+"="+(50*fifty));
+	    System.out.println("20* "+twen+"="+(20*twen));
+	    System.out.println("10* "+ten+"="+(10*ten));
+	   System.out.println("5* "+five+"="+(5*five)); 
+	   System.out.println("2* "+two+"="+(2*two));
+	   System.out.println("1* "+one+"="+(1*one));
+	    System.out.println("________________________________________");
+	    System.out.println("total=    "+a);
+
+	}
+
+}
+
+33) Accept 4 digit no from user & reverse it
+
+import java.util.Scanner;
+public class p33 {
+    public static void main(String[]args)
+    {
+        int n,a,b,c;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value of n :");
+        n=sc.nextInt();
+        a=n%10;
+        n=n/10;
+        b=n%10;
+        n=n/10;
+        c=n%10;
+        n=n/10;
+        System.out.println(" "+a+" "+b+" "+c+" "+n);
+    }
+    
+}
+
+34).	Write a program to add and subtract two numbers?
+            
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        int a,b,c,d;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter two numbers");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=a+b;
+        d=a-b;
+
+        System.out.println("Add="+c+"Sub="+d);
+
+    }
+}
+
+35). Write a program to multiply and divide two numbers and print them in the form of equation (4*3=12 8/4=2)?
+
+import java.util.Scanner;
+public class q2 {
+
+    public static void main(String[]args)
+    {
+        int a,b,c,d;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the two numbers");
+
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=a*b;
+        d=a/b;
+        
+        System.out.println("multiplication="+c+"   "+a+"*"+b+"="+c);
+        System.out.println("division="+d+"   "+a+"/"+b+"="+c);
+       }
+    
+}
+
+36).	Write a program to find the square and cube of a given number?
+
+import java.util.Scanner;
+public class p36 {
+    public static void main(String[]args)
+    {
+        int num,cube,square;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number :");
+        num=sc.nextInt();
+        square=num*num;
+        cube=num*num*num;
+        System.out.println("Square is= "+square+"  cube is= "+cube);
+    }
+    
+}
+
+37).	Write a program to find the square root of a given number (use sqrt () function)?Math.sqrt(a)
+
+import java.util.Scanner;
+public class p37 {
+    public static void main(String[]args)
+    {
+        double num,sqrt;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        num=sc.nextDouble();
+        sqrt=Math.sqrt(num);
+        System.out.println("The Square root is = "+sqrt);
+
+    }
+    
+}
+
+38).	Write a program to find the area and perimeter of a square?
+
+import java.util.Scanner;
+public class p38 {
+
+    public static void main(String[]args)
+    {
+        int s; 
+        double a,b;
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter a number");
+        s = sc.nextInt();
+        a=s*s;
+        b=4*s;
+        System.out.println("area of square="+a);
+        System.out.println("Parameter of square="+b);     
+        
+    }
+    
+}
+
+39).	Write a program to find the area and circumference of a circle?
+
+import java.util.Scanner;
+public class p39 {
+     
+    public static void main(String[]args)
+    {
+        double r,a,c;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter the radius");
+        r= sc.nextDouble();
+        a= 3.14*r*r;
+        c=2*3.14*r;
+
+        System.out.println("area of cicrle="+a);
+        System.out.println("circumferences of circle"+c);
+    }   
+}
+
+40).	Write a program to find the area of a sphere?
+
+import java.util.Scanner;
+public class q8 {
+
+    public static void main(String[]args)
+    {
+        double r,A;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the radius of sphere");
+        r=sc.nextDouble();
+        A=4*3.14*r*r;
+
+        System.out.println("Area of sphere"+A);
+
+    }   
+}
+
+41).	Write a program to find the volume of a cylinder?
+
+import java.util.*;
+public class q7 {
+     
+    public static void main(String[]args)
+    {
+        double r,h,v;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter the radius  and height");
+        r=sc.nextDouble();
+        h=sc.nextDouble();
+        v=3.14*r*r*h;
+
+        System.out.println("Volume of cylinder="+v);
+    }
+}
+
+42).	Write a program to find the your age in days?
+
+import java.util.*;
+public class q9 {
+    
+    public static void main(String[]args)
+    {
+      int A,age;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter your age");
+      A=sc.nextInt();
+      age=A*365;
+
+      System.out.println("Your age in days is  ="+age);  
+    }
+}
+
+43).	Write a program to find the simple interest and compound interest?
+
+import java.util.Scanner;
+public class q10 {
+    
+    public static void main(String[]args)
+    {
+     double si,principal,rate,time,ci;
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter Principal,Rate and Time :");
+     principal=sc.nextDouble();
+     rate=sc.nextDouble();
+     time=sc.nextDouble();
+     si=(principal*rate*time)/100;
+     ci=principal*(Math.pow((1+rate/100),time));
+     System.out.println("Simpal iNtrest="+si);
+     System.out.println("Compound Intresst"+ci);
+    }
+}
+
+44).	The total mechanical energy of a particle is given by e=mgh+(1/2) mv^2?
+
+   import java.util.Scanner;
+   public class p44 
+    {
+	public static void main(String[] args) {
+		
+		int m,g,h,v,e;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter m,g,h,v ");
+		m=s.nextInt();
+		g=s.nextInt();
+		h=s.nextInt();
+		v=s.nextInt();
+		e=(m*g*h)+(1/2)*(m*v*v);
+		System.out.println("E="+e);
+
+	}
+}
+        
+45).	A milk vendor buys milk at the rate of 3.25/- the then adds a liter of water for every 4 liters of milk and sells the water milk at the rate of 4.15/1t. calculate the gain for milk vendor?
+
+import java.util.Scanner;
+public class p42 {
+    public static void main(String[] args) 
+    {
+		double milkvendorbuysmilk,buysmilkrate=3.25,sellmikrate=4.15;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter milk quantity:");
+		milkvendorbuysmilk=s.nextDouble();		
+		double totalbuymilkrate=milkvendorbuysmilk*buysmilkrate;
+		System.out.println("Milk vendor buys milk rate :"+totalbuymilkrate);
+		System.out.println("Milk vendor added l liter water for 4 liter milk");
+		double addingwaterinmilk=milkvendorbuysmilk/4;
+		 milkvendorbuysmilk=milkvendorbuysmilk+addingwaterinmilk;
+		 System.out.println("Milk vendor sells the milk 4.15");
+          double   totalprofitaftersells= milkvendorbuysmilk*sellmikrate;
+          System.out.println( "total milk sells amount="+totalprofitaftersells);
+		 System.out.println("milk vendor profit="+(totalprofitaftersells-totalbuymilkrate));	
+	}
+}
+
+
+
+46).The temperature of the city is input through the keyboard in Fahrenheit. Write a program to convert into Celsius?
+
+import java.util.Scanner;
+public class p45
+ {
+	public static void main(String[] args)
+     {
+		
+		double Fahrenheit ,celcius;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter Tempture to convert celcius :");
+		Fahrenheit =s.nextDouble();
+		celcius=(Fahrenheit - 32) * 5 / 9;
+		System.out.println("Fahrenheit ="+Fahrenheit +"celcius ="+ celcius);
+		
+	}
+}
+
+47).	Two numbers are input into two locations ‘a’ and ‘b’ Write a program to interchange the contents of ‘a’ and ‘b’ without using temporary variables?
+
+import java.util.Scanner;
+public class p46
+ {
+	public static void main(String[] args)
+     {
+		int a,b,c;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter  A & b:");
+		a=s.nextInt();
+		b=s.nextInt();
+		System.out.println("Before Swapping "+"a="+a+"b="+b);
+		c=a;
+		a=b;
+		b=c;
+		System.out.println("After Swapping "+"a="+a+"b="+b);
+		
+	}
+}
+
+48).Given the coordinates of two points (x1,y1) and (x2,y2). Write a program to find the distance between these two points?
+
+import java.util.Scanner;
+public class p47
+ {
+	public static void main(String[] args)
+     {
+		int x1,x2,y1,y2,distance;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter values of x1,x2,y1,y2");
+		x1=s.nextInt();
+		x2=s.nextInt();
+		y1=s.nextInt();
+		y2=s.nextInt();
+		distance=((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+		System.out.println(" distance between two points:"+Math.sqrt(distance));
+	}
+}
+
+49).	Rajesh’s basic salary is input through the keyboard. His D.A. is 40% of basic salary, and
+H.R.A. is 20% of basic salary. Write a program to calculate his gross salary?
+   
+import java.util.Scanner;
+public class p48
+{
+ public static void main(String[] args) 
+ {
+		int basicsalary;
+		double hra,da,gs;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter your basic Salary:");
+		basicsalary=s.nextInt();
+		hra=basicsalary*0.20;
+		da=basicsalary*0.40;
+		gs=hra+da;
+		System.out.println(" HRA="+hra+" DA="+da+" Gross Salary="+gs);
+  }
+}
+
+50).The distance between two cities in Km. is input through the keyboard. Write a program to convert and print the result in meters and centimeters?
+
+import java.util.Scanner;
+public class p49 
+{
+	public static void main(String[] args) {
+        double km,m,cm;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter Km :");
+        km=s.nextDouble();
+        m=km*1000;
+        cm=m*100;
+        System.out.println("kilomiter="+km);
+        System.out.println("m="+m);
+        System.out.println("cm="+cm);   
+		
+	}
+}
+    
+51).	Write a program which accepts the amount in dollars and convert into rupees?
+
+import java.util.Scanner;
+public class p50
+ {
+    public static void main(String[] args) {
+		int dollars;
+		double rupees;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter doller to convert ruppes:");	
+		dollars=s.nextInt();
+		rupees=dollars*83.97;
+		System.out.println("dollars="+dollars+"="+rupees+"rupees");
+		}
+}
+
+52).	Write a program to read your address and print it?
+
+import java.util.Scanner;
+public class p51
+ {
+    public static void main(String[] args) 
+    {
+		String Address;
+		Scanner S=new Scanner(System.in);
+		System.out.println("Enter your Address:");
+		Address=S.nextLine();
+		System.out.println(" your Address is:"+Address);
+		
+	}
+}
+
+53).	Write a program to print the area of triangle if b and h values are given?
+
+import java.util.Scanner;
+public class p52
+ {
+    public static void main(String[] args) 
+    {
+		float b,h,A;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter  B & H value :");
+		b=s.nextFloat();
+		h=s.nextFloat();
+		 A = (b * h) / 2;
+		 System.out.println("Area Of Triangle :"+A);	
+	}
+}
+54).	Write a program to print the area of triangle if three sides are given?
+
+import java.util.Scanner;
+public class p53
+ {
+    public static void main(String[] args) 
+    {
+		double a,b,c, area,s;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Three Sides Values");
+		a=sc.nextDouble();
+		b=sc.nextDouble();
+		c=sc.nextDouble();
+		s = (a + b + c) / 2;
+		System.out.println("semiconductor:"+s);
+	    area = Math.sqrt(s *(s - a)*(s - b)*(s - c)); 
+	     System.out.println("Area of 3 sides triangle :"+area );
+	}
+}
+
+55).	Write a program to read the marks of 3 subjects and display the total, avg, class?
+
+import java.util.Scanner;
+public class p54
+ {
+    public static void main(String[]args)
+    {
+        int hindi,english,marathi;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter hindi,english,marathi Marks");
+		hindi=s.nextInt();
+		english=s.nextInt();
+		marathi=s.nextInt();
+		int total=hindi+english+marathi;
+		int avg=total/3;
+		System.out.println("Total marks of subject ="+total);
+		System.out.println("AVG of marks="+avg);
+		if(avg>50)
+		{
+			System.out.println("class A");
+		}
+		else
+		{
+			System.out.println("class b");
+		}
+	}
+}
+
+
+
+
